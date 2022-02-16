@@ -1,12 +1,10 @@
-*
-{
+* {
   margin: 0;
   padding: 0;
   user-select: none;
 }
 
-#title
-{
+#title {
   position: absolute;
   top: 8%;
   left: 50%;
@@ -17,8 +15,7 @@
   font-family: Times New Roman;
 }
 
-#clock
-{
+#clock {
   position: absolute;
   top: 25%;
   left: 50%;
@@ -30,8 +27,7 @@
 }
 
 
-time, .space
-{
+time, .space {
   display: inline-block;
   margin: 12px 10px;
   text-align: center;
@@ -42,8 +38,7 @@ time, .space
   font-family: Consolas;
 }
 
-.space
-{
+.space {
   position: relative;
   top: -10px;
   margin: 0 5px;
@@ -54,28 +49,17 @@ time, .space
 
 
 
-
-/*////////////////////*/
-@media screen and (min-width: 900px)
-{
-/*////////////////////*/
-time
-{
+@media screen and (min-width: 900px) {
+/*--------------------------------------*/
+time {
   top: -20px;
   margin: 0 50px;
   font-size: 160px;
 }
 
-.space
-{
+.space {
   font-size: 120px;
 }
-/*////////////////////*/
+
+/*-------------------------------------*/
 }
-
-
-
-
-
-
-
